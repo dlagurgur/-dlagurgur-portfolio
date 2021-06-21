@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Kije’s LAB" />
+    <meta name="keywords" content="template, theme, portfolio, developer" />
+    <meta name="description" content="One Page Template for Developer Portfolio" />
+    <title>One Page Template for Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;500;800&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme-dark.css" media="(prefers-color-scheme: dark)">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <!-- Header 시작 -->
+    <header style="background-image: url(assets/img/TEST.png)">
+      <div class="container">
+        <h1>개발자 <strong>임상혁</strong> 입니다</h1>
+      </div>
+    </header>
+    <!-- Header 끝 -->
+    <!-- Navbar 시작 -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid text-uppercase">
+        <a class="navbar-brand" href="#">Lim Sang Hyuk</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse sticky-fixed" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#summary">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#stacks">Stacks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+           
+           
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+         
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar 끝 -->
+    <!-- Main 시작 -->
+    <main>
+      <!-- Summary 시작 -->
+      <section class="container pt mt" id="summary">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Summary</h2>
+            <p class="color-basic fonsiz-xl fonwei-kr-xs letsp-xs ws-sm mt-4">
+              안녕하세요. <span class="fonwei-en-xl letsp-md">JAVA,Spring</span>개발자 임상혁입니다.
+              저는 올해 23살이며, IT를  
+              <span class="fonwei-en-xl letsp-md">사랑하는</span>젊은 청춘입니다.<br>
+              <span class="letsp-md">유연성</span> 있는 개발자가 되기위해 
+              <span class="fonwei-kr-md">노력</span>하고 있습니다.          
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Summary 끝 -->
+      <!-- Project 시작 -->
+      <section class="container pt mt" id="project">
+        <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Project</h2>
+        <div class="section-desc fonsiz-sm color-basic-opac letsp-sm ws-xs mt-2 mb-4">
+          저는 실무 위주로 프로젝트를 시작합니다.
+        </div>
+        <div class="card shadow">
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table borderless table-hover align-middle">
+                <thead class="border-0 borderless" border="0">
+                  <tr class="fonsiz-sm fonwei-kr-md letsp-sm color-basic-opac text-center vertmid">
+                    <th>프로젝트</th>
+                    <th>소개</th>
+                    <th>개발 참여도</th>
+                    <th>프로젝트 정보</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th class="table-title" scope="col">개발한 프로젝트</th>
+                    <td>
+                      <div>Travelers + 혼자 여행가기 외로울때 누군가와 같이갈수있는 서비스<br>  깃허브 : <a href="https://github.com/ggTravelers/Travelers">Travelers</a></div>
+                    
+                      <div>
+                        <span class="badge bg-done">Done</span>
+                        <span class="badge bg-grey">JAVA</span>
+                        <span class="badge bg-grey">Spring</span>
+                        <span class="badge bg-grey">JavaScript</span>
+                        <span class="badge bg-grey">HTML5,CSS</span>
+                        <span class="badge bg-grey">Bootstrap4</span>
+                        <span class="badge bg-grey">JSP</span>
+                        <span class="badge bg-grey">Ajax</span>
+                        <span class="badge bg-grey">JQuery</span>
+                        <span class="badge bg-grey">Oracle DB</span>
+                      </div>
+                    </td>
+                 
+                    <td class="text-center">
+                      <div class="">(개발 기간 1달)</div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-info" style="width: 100%">
+                          <span class="progress-desc">100%</span>
+                        </div>
+                      </div>
+                      <div class="progress-desc">백엔드 개발</div>
+                    </td>
+                    <td class="text-center">
+                      <span class="text-muted" data-bs-toggle="modal" data-bs-target="#Modal1">
+                        <i class="bi bi-file-earmark-slides"></i>
+                        <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="Modal1Label" aria-hidden="true">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="Modal1Label">개발 프로젝트 증빙 자료</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <img src="assets/img/TRAVELERS/캡처.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                 <img src="assets/img/TRAVELERS/1.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                <img src="assets/img/TRAVELERS/2.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                <img src="assets/img/TRAVELERS/3.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                <img src="assets/img/TRAVELERS/4.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                <img src="assets/img/TRAVELERS/5.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                <img src="assets/img/TRAVELERS/6.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                <img src="assets/img/TRAVELERS/7.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                <img src="assets/img/TRAVELERS/8.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                <img src="assets/img/TRAVELERS/9.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                <img src="assets/img/TRAVELERS/10.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                <img src="assets/img/TRAVELERS/11.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                <img src="assets/img/TRAVELERS/12.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                <img src="assets/img/TRAVELERS/13.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                  <img src="assets/img/TRAVELERS/14.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                  <img src="assets/img/TRAVELERS/15.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                  <img src="assets/img/TRAVELERS/16.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                  <img src="assets/img/TRAVELERS/17.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                  <img src="assets/img/TRAVELERS/18.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                  <img src="assets/img/TRAVELERS/19.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                  <img src="assets/img/TRAVELERS/20.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                
+                                <p class="modal-desc">
+                          
+                                </p>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </span>
+                    </td>
+                  </tr>
+                  <!--  ------------------------------------------------------------------------------------------------------- -->
+                  <tr>
+                    <th class="table-title" scope="col">개발한 프로젝트</th>
+                    <td>
+                      <div>MH BURGER 딜리버리 + (빅데이터)BURGER 딜리버리 서비스 <br>  깃허브 : <a href="https://github.com/rla2892/Muhan">Muhan</a> </div>
+                    
+                      <div>
+                        <span class="badge bg-done">Done</span>
+                        <span class="badge bg-grey">JAVA</span>
+                         <span class="badge bg-grey">Python</span>
+                        <span class="badge bg-grey">Spring</span>
+                        <span class="badge bg-grey">JavaScript</span>
+                        <span class="badge bg-grey">HTML5,CSS</span>
+                        <span class="badge bg-grey">Bootstrap4</span>
+                        <span class="badge bg-grey">JSP</span>
+                        <span class="badge bg-grey">Ajax</span>
+                        <span class="badge bg-grey">JQuery</span>
+                        <span class="badge bg-grey">Oracle DB</span>
+                        <span class="badge bg-grey">LINUX</span>
+                        <span class="badge bg-grey">Hadoop</span>
+                        <span class="badge bg-grey">Cron</span>
+                        <span class="badge bg-grey">Hdfs/yarn</span>
+                        <span class="badge bg-grey">Spark</span>
+                      </div>
+                    </td>
+                     <td class="text-center">
+                      <div class="">(개발 기간 2달)</div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-info" style="width: 100%">
+                          <span class="progress-desc">100%</span>
+                        </div>
+                      </div>
+                      <div class="progress-desc">Full Stack 개발</div>
+                    </td>
+                    <td class="text-center">
+                      <span class="text-muted" data-bs-toggle="modal" data-bs-target="#Modal2">
+                        <i class="bi bi-file-earmark-slides"></i>
+                        <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="Modal2Label" aria-hidden="true">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="Modal2Label">개발 프로젝트 증빙 자료</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">                             
+                                 <img src="assets/img/MUHAN/1.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                <img src="assets/img/MUHAN/2.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                <img src="assets/img/MUHAN/3.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                <img src="assets/img/MUHAN/4.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                <img src="assets/img/MUHAN/5.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                <img src="assets/img/MUHAN/6.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                <img src="assets/img/MUHAN/7.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                <img src="assets/img/MUHAN/8.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                <img src="assets/img/MUHAN/9.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                <img src="assets/img/MUHAN/10.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                <img src="assets/img/MUHAN/11.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                <img src="assets/img/MUHAN/12.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                <img src="assets/img/MUHAN/13.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                  <img src="assets/img/MUHAN/14.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                  <img src="assets/img/MUHAN/15.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                  <img src="assets/img/MUHAN/16.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                  <img src="assets/img/MUHAN/17.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                  <img src="assets/img/MUHAN/18.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                  <img src="assets/img/MUHAN/19.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                  <img src="assets/img/MUHAN/20.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                 <img src="assets/img/MUHAN/21.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                 <img src="assets/img/MUHAN/22.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                 <img src="assets/img/MUHAN/23.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                 <img src="assets/img/MUHAN/24.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                 <img src="assets/img/MUHAN/25.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                 <img src="assets/img/MUHAN/26.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                 <img src="assets/img/MUHAN/27.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                 <img src="assets/img/MUHAN/28.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                 <img src="assets/img/MUHAN/29.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                 <img src="assets/img/MUHAN/30.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                 <img src="assets/img/MUHAN/31.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                 <img src="assets/img/MUHAN/32.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                 <img src="assets/img/MUHAN/33.PNG" alt="" width="770px">
+                                <br><br><br><br>
+                                
+                                                              
+                                <p class="modal-desc">
+                          
+                                </p>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </span>
+                    </td>
+                  </tr>
+                  
+        <!--  ------------------------------------------------------------------------------------------------------- -->
+                      
+                  <tr>
+                    <th class="table-title" scope="col">개발한 프로젝트</th>
+                    <td>
+                      <div>BOGOSA + (AWS 기반)라이브 커머스 <br>  깃허브 : <a href="https://github.com/dlagurgur/Bogosa">Bogosa</a></div>
+                    
+                     <div>
+                        <span class="badge bg-done">Done</span>
+                        <span class="badge bg-grey">JAVA</span>
+                        <span class="badge bg-grey">Spring</span>
+                        <span class="badge bg-grey">JavaScript</span>
+                        <span class="badge bg-grey">HTML5,CSS</span>
+                        <span class="badge bg-grey">Bootstrap5</span>
+                        <span class="badge bg-grey">JSP</span>
+                        <span class="badge bg-grey">Ajax</span>
+                        <span class="badge bg-grey">JQuery</span>
+                        <span class="badge bg-grey">Mysql DB</span>
+                        <span class="badge bg-grey">AWS IVS</span>
+                        <span class="badge bg-grey">AWS EC2</span>
+                        <span class="badge bg-grey">AWS S3</span>
+                        <span class="badge bg-grey">AWS SES</span>              
+                      </div>
+                    </td>
+                    <td class="text-center">
+                      <div class="">(개발 기간 1.5달)</div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-info" style="width: 100%">
+                          <span class="progress-desc">100%</span>
+                        </div>
+                      </div>
+                      <div class="progress-desc">Full Stack 개발</div>
+                    </td>
+                   <td class="text-center">
+                      <span class="text-muted" data-bs-toggle="modal" data-bs-target="#Modal3">
+                        <i class="bi bi-file-earmark-slides"></i>
+                        <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="Modal3Label" aria-hidden="true">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="Modal3Label">개발 프로젝트 증빙 자료</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">                             
+                                 <iframe width="100%" height="700" src="assets/img/BOGOSA/BOGOSA.pdf"></iframe>
+                                
+                                                              
+                                <p class="modal-desc">
+                          
+                                </p>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </span>
+                    </td>
+                  </tr>                               
+                </tbody>
+              </table>
+            </div>
+            <div class="table-desc fonsiz-xs fonwei-kr-sm letsp-sm text-center color-basic-opac">프로젝트들은 최근 개발한 순으로 정렬되어 있습니다</div>
+          </div>
+        </div>
+      </section>
+      
+      
+            <section class="container pt mt" id="education">
+        <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Education</h2>
+        <div class="section-desc fonsiz-sm color-basic-opac letsp-sm ws-xs mt-2 mb-4">
+          오직 한길만 보고 성실하게, 열심히 노력해 왔습니다. 항상 최선을 다하고 더 높은 것을 추구합니다.
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-lg-4">
+            <div class="card mb-3">
+              
+              <div class="card-body p-4">
+                <h5 class="card-title fonsiz-xxl fonwei-kr-xl letsp-sm">학점은행제 컴퓨터 공학과 학사</h5>
+                <p class="card-text fonsiz-sm fonwei-kr-sm color-basic-opac letsp-sm">
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="col-sm-12 col-lg-4">
+            <div class="card mb-3">
+              
+              <div class="card-body p-4">
+                <h5 class="card-title fonsiz-xxl fonwei-kr-xl letsp-sm">빅데이터 및 딥러닝 기술 융합 전문가 양성</h5>
+                <p class="card-text fonsiz-sm fonwei-kr-sm color-basic-opac letsp-sm">
+                     	교육처&nbsp;: &nbsp;플레이데이터(엔코아)<br>
+                  <span class="ls-0">빅데이터 수집
+빅데이터 저장,&nbsp;
+빅데이터 처리,&nbsp;
+분석용 데이터 탐색,&nbsp;
+통계 기반 데이터 분석,&nbsp;
+머신러닝 기반 데이터 분석,&nbsp;
+텍스트마이닝 기반 데이터 분석,&nbsp;
+빅데이터 분석 결과 시각화,&nbsp;
+리눅스(크론,하둡,쉘),&nbsp;
+웹프로젝트(JAVA,Spring),&nbsp;
+프로그래밍 언어활용(JAVA),&nbsp;
+SQL활용,&nbsp;
+데이터베이스 구현,&nbsp;
+서버프로그램 구현,&nbsp;
+SW 기초기술 활용</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="col-sm-12 col-lg-4">
+            <div class="card mb-3">
+              
+              <div class="card-body p-4">
+                <h5 class="card-title fonsiz-xxl fonwei-kr-xl letsp-sm">Untact 비즈니스를 위한 멀티 클라우드</h5>
+                <p class="card-text fonsiz-sm fonwei-kr-sm color-basic-opac letsp-sm">
+                 교육처&nbsp;: &nbsp;플레이데이터(엔코아) <br>
+                  <span class="ls-0">클라우드 기본기술 Linux,SQL,Network,Pyhon,Cloud Computing<br>
+클라우드 Architecture AWS기반 아키텍처 설계,업그레이드<br>
+클라우드 System Operation 클라우드 시스템 운영(Azure)<br>
+클라우드 DevOps Developer,Operation의 개념 이해<br>
+Orchestration Docker 제작 및 배포, Kubernetes 제작 및 배포, 새로운 클라우드 서비스 구축</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+      
+      
+      
+      
+      <!-- Project 끝 -->
+       <!-- Awards 시작 -->
+      
+      <section class="container pt mt mb-5" id="stacks">
+        <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Stacks</h2>
+        <div class="section-desc fonsiz-sm color-basic-opac letsp-sm ws-xs mt-2 mb-4">
+          만들고자 하는 목표에 대해 필요한 기술들을 빠르게 습득하고 구현합니다.
+          할 수 있는 경계선을 더 넓혀 나가고자 합니다.
+        </div>
+        <div class="card shadow">
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table table-hover align-middle">
+                <thead>
+                  <tr class="fonsiz-sm fonwei-kr-md letsp-sm color-basic-opac text-center vertmid">
+                    <th>기술 구분</th>
+                    <th>로고</th>
+                    <th>활용 수준</th>
+                    <th>평가</th>
+                  </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="col" class="table-title letsp-md">JAVA</th>
+                    <td>
+                    
+                        <img src="assets/img/JAVA.png" alt="JAVA Logo"/>
+                    
+                    </td>
+                    <td>
+                      <span class="ls-0">Spring을 사용하여 MVC 페턴을 기반으로한 기본적인 웹페이지 개발이 가능합니다.</span><br>
+                       
+                    </td>
+                    <td>
+                      <div class="star-icon text-center">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </td>
+                  </tr>
+                  
+                  
+                  
+                  <tr>
+                    <th scope="col" class="table-title letsp-md">Python</th>
+                    <td>
+                    
+                        <img src="assets/img/python.png" alt="Python Logo"/>
+                    
+                    </td>
+                    <td>
+                      <span class="ls-0">python을 활용한 간단한 프로그램 구현과 데이터 파싱을 할수있습니다.</span>
+                  
+                    </td>
+                    <td>
+                      <div class="star-icon text-center">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </td>
+                  </tr>
+                  
+                  
+                  
+                  
+                  
+              	<tr>
+                    <th scope="col" class="table-title letsp-md">Spring</th>
+                    <td>
+                    
+                        <img src="assets/img/spring1.png" alt="Spring Logo" style="height: 60px;"/>
+                   
+                    </td>
+                    <td>
+                      <span class="ls-0">Spring 개발 환경을 구축할수 있으며 Spring에 대한 기초적인 지식을 알고있습니다.</span>
+                
+                    </td>
+                    <td>
+                      <div class="star-icon text-center">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </td>                     
+               </tr>
+               
+               
+               
+               
+               
+                             	<tr>
+                    <th scope="col" class="table-title letsp-md">Django</th>
+                    <td>
+                    
+                        <img src="assets/img/img.png" alt="Django Logo" style="height: 60px;"/>
+                   
+                    </td>
+                    <td>
+                      <span class="ls-0">기본적인 세팅이 가능하고 Django와 python을 활용하여 간단한 웹페이지 개발이 가능합니다.</span> 
+                   
+                    </td>
+                    <td>
+                      <div class="star-icon text-center">
+                        <i class="bi bi-star-fill"></i>
+                       <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </td>                     
+               </tr>
+               
+               
+                  
+               
+               
+               <tr>
+                    <th scope="col" class="table-title letsp-md">Jquery&nbsp; Ajax</th>
+                    <td>
+                    
+                        <img src="assets/img/jquery.png" alt="JAVA Logo" style="height: 60px;"/>
+                   
+                    </td>
+                    <td>
+                      <span class="ls-0">Jquery와 JavaScript를 사용하여 웹페이지의 정보를 가져올수있으며 Ajax와 Jquery를 활용하여 개발이 가능합니다.</span>
+                   
+                    </td>
+                    <td>
+                      <div class="star-icon text-center">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                       <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </td>                     
+               </tr>
+               
+                
+                
+                
+                
+                  <tr>
+                    <th scope="col" class="table-title letsp-md">JavaScript</th>
+                    <td>
+                    
+                        <img src="assets/img/js.png" alt="JavaScript Logo" />
+                    
+                    </td>
+                    <td>
+                      <span class="ls-0">HTML,javascript트를 활용하여 기본적인 개발과 javascript로 이루어진 간단한 API를 사용할수있습니다.</span>
+                  
+                    </td>
+                    <td>
+                      <div class="star-icon text-center">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </td>
+                  </tr>
+                  
+                  
+                                 <tr>
+                    <th scope="col" class="table-title letsp-md">OracleDB</th>
+                    <td>
+                    
+                        <img src="assets/img/oracle-removebg-preview.png" alt="JAVA Logo" style="height: 60px;"/>
+                   
+                    </td>
+                    <td>
+                      <span class="ls-0">기초적인 테이블에 대한 이해와 insert,delete,update를 사용할우 있으며 간단한 join을 할수있습니다.</span>
+           
+                    </td>
+                    <td>
+                      <div class="star-icon text-center">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </td>                     
+               </tr>
+               
+               
+               
+               
+                    <tr>
+                    <th scope="col" class="table-title letsp-md">MysqlDB</th>
+                    <td>
+                    
+                        <img src="assets/img/MySQL-Logo.wine.png" alt="JAVA Logo" style="height: 60px;"/>
+                   
+                    </td>
+                    <td>
+                      <span class="ls-0">기초적인 테이블에 대한 이해와 insert,delete,update를 사용할우 있으며 간단한 join을 할수있습니다.</span>
+                 
+                    </td>
+                    <td>
+                      <div class="star-icon text-center">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </td>                     
+               </tr>
+               
+               
+               
+              
+                  
+                  
+                  
+                  
+                  <tr>
+                    <th scope="col" class="table-title letsp-md">AWS EC2</th>
+                    <td>
+                      
+                        <img src="assets/img/ec2.png" alt="AWS EC2 Logo" />
+                     
+                    </td>
+                    <td>
+                      <span class="ls-0">AWS EC2를 활용하여 웹어플리케이션 배포가 가능합니다.</span>
+                   
+                    </td>
+                    <td>
+                      <div class="star-icon text-center">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="col" class="table-title letsp-md">AWS S3</th>
+                    <td>
+                   
+                        <img src="assets/img/s3.png" alt="AWS S3 Logo" />
+                      
+                    </td>
+                    <td>
+                 		<span class="ls-0">AWS S3를 활용하여 웹페이지 에서 이미지/동영상 등을 업로드 다운로드가 가능합니다.</span>
+                    </td>
+                    <td>
+                      <div class="star-icon text-center">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                       <i class="bi bi-star"></i>
+                       <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </td>
+                  </tr>
+                  
+                  
+                  
+                 
+                </tbody>
+              </table>
+            </div>
+            <div class="table-desc fonsiz-xs fonwei-kr-sm letsp-sm text-center color-basic-opac">객관화하기 어려운 관계로, 제가 이해하고 구현할 수 있는 수준을 작성했습니다.</div>
+          </div>
+        </div>
+      </section>
+      <section id="charts" class="container">
+       
+      </section>
+     
+
+      
+      <!-- contact 시작  -->
+      <section class="container pt mt" id="contact">
+        <div class="row">
+          <div class="col-lg-7 mx-auto text-center mb-5">
+            <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">
+              Contact
+            </h2>
+            <p class=" fonsiz-sm color-basic fonsiz-xl fonwei-kr-xs lh-md letsp-xs ws-sm my-4">
+              여기까지 읽어 주셔서 고맙습니다. <br/>
+              더 성실하게, 항상 최선을 다하겠습니다. 
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="container" style="
+    margin-right: 450px;
+">
+        <div class="name-card d-flex justify-content-center align-items-center h-100">
+          <div class="contact-body shadow">
+            <div class="text-center mb-4">
+              <h1>Lim Sang Hyuk</h1>
+              <small>JAVA,Spring Developer</small>
+            </div>
+            <div class="d-flex">
+              <img src="/assets/img/face.png" />
+              <div class="ps-3">
+                <ul class="list-unstyled">
+                  <li>
+                    <span>
+                      <i class="bi bi-person-check-fill"></i>
+                      Position : <strong>Developer</strong>
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="bi bi-envelope"></i>
+                      Email :
+                      <a href="mailto:dlagurgur@gmail.com">
+                        <strong>dlagurgur@gmail.com</strong>
+                      </a>
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="bi bi-telephone-inbound"></i>
+                      Phone :
+                      <a href="tel:010-4614-9846">
+                        <strong>010-4614-9846</strong>
+                      </a>
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="bi bi-house-door"></i>
+                      Github :
+                      <a href="https://github.com/dlagurgur">
+                        <strong>github/dlagurgur</strong>
+                      </a>
+                    </span>
+                  </li>
+                </ul>
+                <div class="contact-desc">
+                  “I'm going to work hard today.”
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- footer 시작  -->
+        <footer class="container mt-auto mb-5">
+          
+          <div>
+            <hr>
+          </div>
+          
+          <div class="license-copy text-center">
+            ⓒ 2021.
+            <a class="fonwei-en-xxl" href="http://kijepark.com/">Kije’s LAB</a> All Rights Reserved
+            <a class="fonwei-en-xxl" href="http://kijepark.com/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%B0%95%EA%B8%B0%EC%A0%9C%EC%9D%98-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4.html">Kije’s RESUME</a>
+            .
+            <a class="fonwei-en-xxl" href="#" data-bs-toggle="modal" data-bs-target="#myModal3">Creative Commons License</a>
+          </div>
+          <div class="modal fade" id="myModal3" tabindex="-1" aria-labelledby="myModal3Label" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="myModal3Label">THEME 라이센스 정책</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center mt-3" mb-5>
+                  <img src="assets/svg/license.svg" alt="">
+                    <p class="modal-desc">
+                      라이센스는 <strong> 크리에이티브 커먼즈 라이센스의 저작자표시-비영리(CC BY-NC)</strong>로 저작자와 출처 등을 표시하면 저작물의 변경, 2차적 저작물의 작성을 포함하여 자유롭게 이용 하실 수 있습니다.<br/>
+                      ( 단, 영리적 이용은 허용되지 않습니다 ) <br/><br/>
+                      테마에 적용된 모든 사진 이미지는 저작권 문제로 인해 절대 사용 하시면 안됩니다.<br/><br/>
+                      문의 : <a href="mailto:kijepark@kijeslab.com">
+                        <span class="fonsiz-md fonwei-en-xl letsp-md color-purple-opac">kijepark@kijeslab.com</span> 
+                      </a>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- footer 끝  -->
+      </section>
+      <!-- Contact 끝  -->
+    </main>
+    <!-- Main 끝 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
